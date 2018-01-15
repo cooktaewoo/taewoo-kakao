@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chats</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fa fa-plane"></i>
+        <i class="fa fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">18:30</span>
+      </div>
+      <div class="header__column">
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth"></i>
+        <span class="header__battery">100% <i class="fa fa-battery"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">Edit</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Chats <i class="fa fa-caret-down"></i></span>
+      </div>
+      <div class="header__column">
+      </div>
+    </div>
+  </header>
+
+  <main class="chats">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+
+    <ul class="chats__list">
+      <li class="chats__chat">
+        <div class="chat__content">
+          <img src="images/avatar.jpg">
+          <div class="chat__preview">
+            <h3 class="chat__user">KYUNGMIN</h3>
+            <span class="chat__last-message">Hellow! Test Message</span>
+          </div>
+        </div>
+        <div class="chat__date-time">
+          15:54
+        </div>
+      </li>
+
+      <li class="chats__chat">
+        <div class="chat__content">
+          <img src="images/avatar.jpg">
+          <div class="chat__preview">
+            <h3 class="chat__user">Girlfriend</h3>
+            <span class="chat__last-message">Hi Taewoo. I am your girlfriend</span>
+          </div>
+        </div>
+        <div class="chat__date-time">
+          July 29
+        </div>
+      </li>
+    </ul>
+    <div class="chat-btn">
+      <i class="fa fa-comment"></i>
+    </div>
+
+  </main>
+
+
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fa fa-user"></i><span class="tab-bar__tile">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-comment"></i><span class="tab-bar__tile">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i><span class="tab-bar__tile">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i><span class="tab-bar__tile">More</span>
+    </a>
+  </nav>
+</body>
+</html>
