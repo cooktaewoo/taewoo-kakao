@@ -1,0 +1,68 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+
+.profile .profile__header {
+  height: 80vh; /* 80vh 스크린의 80% */
+  width: 100%;
+  background-image: url("http://cfile8.uf.tistory.com/image/2650054E57F3AD3F241A2C");
+  background-position: center right;
+  background-size: cover;
+  position: relative;
+  top: -60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-continaer {
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+
+.profile__header-continaer img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__container input {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.profile__actions {
+  display: flex;
+}
+
+.profile__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.profile__action-circle {
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  padding: 15px;
+  color: #523737;
+  margin-bottom: 15px;
+}
+
+.profile__action-title {
+  font-size: 12px;
+  font-weight: 600;
+}

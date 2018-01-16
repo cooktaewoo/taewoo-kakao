@@ -1,5 +1,5 @@
 .search-bar {
-  padding: 10px 25px;
+  padding: 10px 25px 10px 25px;
   position: relative;
 }
 
@@ -7,6 +7,9 @@
   width: 100%;
   padding: 5px 7px;
   border: 0;
+  box-sizing: border-box;
+  /* width 의 크기를 200으로 지정할때 padding 20 설정하더라도 width 200이 되어버림
+  padding 값을 제대로 넣어서 동작하려면 해당 방법을 써야함  */
   border-radius: 5px;
   background-color: #f1f2f3;
   font-size: 13px;
