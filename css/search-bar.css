@@ -1,0 +1,25 @@
+.search-bar {
+  padding: 10px 25px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 5px 7px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f1f2f3;
+  font-size: 13px;
+  text-align: center;
+}
+
+.search-bar input:focus {
+  outline: none; /* 파란색으로 보이는 아웃라인 삭제 */
+}
+
+.search-bar i {
+  position: absolute;
+  color: #d1d1d1;
+  top: 15px;
+  left: 40px;
+}
