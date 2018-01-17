@@ -1,0 +1,8 @@
+@media screen and (min-width: 530px), screen and (min-height: 820px) {
+  .bigScreenText {
+    display: flex;
+  }
+}
+
+/* and (max-height : 700px) 처럼 최대값도 설정 할 수 있음 */
+/* orientation : landscape 가로로 읽을 때 */
