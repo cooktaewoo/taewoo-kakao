@@ -1,3 +1,7 @@
+.body-chat {
+  padding-bottom: 0;
+}
+
 .chat-header,
 .chat-header a {
   background-color: #a1c0d6;
@@ -27,6 +31,9 @@
 }
 
 .chat__message-time {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -42,12 +49,14 @@
   padding: 10px 5px;
   border-radius: 5px;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .chat__message-to-me img {
   height: 35px;
   border-radius: 50%;
   margin-right: 10px;
+  padding-left: 5px;
 }
 
 .chat__message .chat__message-username {
@@ -60,10 +69,51 @@
   background-color: #ffffff;
   padding: 10px 5px;
   border-radius: 5px;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .chat__message-center {
   display: flex;
   flex-direction: column;
+}
+
+.type-message {
+  width: 100%;
+  height: 45px;
+  background-color: #eeeeee;
+  bottom: 0;
+  position: fixed;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px 0px 10px;
+}
+
+.type-message .fa-plus {
+  color: #b4b4b4;
+}
+
+.type-message .fa-smile-o {
+  color: #b4b4b4;
+  position: absolute;
+  right: 45px;
+}
+
+.type-message .record-message {
+  color: #523737;
+  background-color: #ffe934;
+  padding: 10px;
+}
+
+.type-message__input {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.type-message__input input {
+  width: 100%;
+  padding: 8px;
 }
